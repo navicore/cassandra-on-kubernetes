@@ -29,11 +29,7 @@ CREATE KEYSPACE mytest WITH replication = {'class': 'SimpleStrategy' , 'replicat
 ```
 
 ```
-CREATE TABLE mytest.test1 ( one text primary KEY , two text)
-```
-
-```
-CREATE TABLE mytest.test1 ( one text primary KEY , two text)
+CREATE TABLE mytest.test1 ( one text primary KEY , two text);
 ```
 
 ```

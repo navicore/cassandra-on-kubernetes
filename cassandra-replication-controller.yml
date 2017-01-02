@@ -14,7 +14,7 @@ spec:
         name: cassandra
     spec:
       containers:
-        - image: navicore/cassandra
+        - image: navicore/cassandra:3.7
           name: cassandra
           env:
             - name: PEER_DISCOVERY_SERVICE
